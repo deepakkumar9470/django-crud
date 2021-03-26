@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'crud/css/bootstrap.css' %}">
+    
+
+    <title>Django-CRUD </title>
+  </head>
+  <body>
+
+ <div class="container mt-5">
+     <h2 class="text-center alert alert-danger">Django CRUD App</h2>
+
+     {% block content %}  {% endblock content %}
+ </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="{% static 'crud/js/jquery.js' %}"></script>
+<script src="{% static 'crud/js/popper.js' %}"></script>
+<script src="{% static 'crud/js/bootstrap.js' %}"></script>
+
+  </body>
+</html>
